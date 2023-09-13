@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RECIPE APP</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <form id="titlecard-form" method="post" action="/">
+    <label for=" recipe-title">Title</label>
+    <input type="text" name="recipe-title"
+      placeholder="Enter the title"
+      id="recipe-title" />
+
+<br>
+<br>
+    <label for="recipe-time ">Preaparation Time</label>
+    <input type="time" name="recipe-time"
+      placeholder="Enter  recipe time"
+      id=" recipe-time" />
+
+<br>
+<br>
+<label for="recipe-steps">Preaparation steps</label>
+    <input type="text" name="recipe-steps"
+      placeholder="Enter  receipe steps"
+      id="recipe-steps" />
+<br>
+<br>
+
+    <input type="submit" value="ADD Recipe">
+    <div id="app"></div>
+    <script src="srcipt.js"></script>
+  </body>
+</html>
